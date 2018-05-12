@@ -1,6 +1,5 @@
- [[Category: Virtual Private Network]]
-[[Category:Secure Shell]]
-[[ja:VPN over SSH]]
+https://wiki.archlinux.org/index.php/VPN_over_SSH
+
 There are several ways to set up a Virtual Private Network through SSH. Note that, while this may be useful from time to time, it may not be a full replacement for a regular VPN. See for example [http://sites.inka.de/bigred/devel/tcp-tcp.html].
 
 == OpenSSH's built in tunneling ==
@@ -32,7 +31,7 @@ Then do 'netcfg -u vpn' or add it into /etc/conf.d/netcfg.
 === Create tun interfaces using systemd-networkd ===
 
 {{bc|1=
-$ cat /etc/systemd/network/vpn.netdev 
+$ cat /etc/systemd/network/vpn.netdev
 [NetDev]
 Name=tun5
 Kind=tun
@@ -41,7 +40,7 @@ Kind=tun
 User=vpn
 Group=network
 
-$ cat /etc/systemd/network/vpn.network 
+$ cat /etc/systemd/network/vpn.network
 [Match]
 Name=tun5
 
@@ -114,4 +113,3 @@ Next, replace the default route with the tunnel
 * [[Router]]
 * [[Ssh]]
 * {{AUR|sshuttle-git}}, a [[python]] tunnel
-
