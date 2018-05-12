@@ -1,0 +1,7 @@
+https://www.linuxquestions.org/questions/linux-laptop-and-netbook-25/wireless-connection-not-working-with-realtek-on-linux-mint-18-2-a-4175615459/
+https://ubuntuforums.org/showthread.php?t=2385692
+Official https://h30434.www3.hp.com/t5/Notebook-Wireless-and-Networking/Realtek-8723DE-wifi-module-amp-Bluetooth-Linux-driver/m-p/6478751#M146150
+https://www.linuxquestions.org/questions/linux-laptop-and-netbook-25/wireless-connection-not-working-with-realtek-on-linux-mint-18-2-a-4175615459/
+https://ubuntuforums.org/showthread.php?t=2367405
+https://www.linuxquestions.org/questions/linux-laptop-and-netbook-25/wireless-connection-with-hp-17-laptop-linux-mint-18-2-a-4175613821/
+Best solution https://askubuntu.com/questions/961299/cannot-see-my-wifi-10ecd723-when-trying-ubuntu
